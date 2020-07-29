@@ -1,0 +1,11 @@
+import java.util.List;
+
+public class reduceDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> number = Arrays.asList(2,3,4,5);
+		number.stream().
+	}
+
+}

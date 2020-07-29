@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class duplicateEmployee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Employee> li= new ArrayList<>();
+		li.add(new Employee(1, "Roopa", "Davangere"));
+		li.add(new Employee(2, "Malemath", "Bangalore"));
+		li.add(new Employee(1, "Roopa", "Davangere"));
+		Set<Employee> s=new HashSet<Employee>();
+		for(Employee e : li) {
+			s.add(e);
+			}
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+import static org.junit.Assert.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+
+
+
+public class First_And_Last_Occurance_StringTest {
+	
+	@Test
+	public void Test() {
+		//First_And_Last_Occurance_String firstLastOccurance=new First_And_Last_Occurance_String();
+		String s="abcdabacdfe";
+		int i=First_And_Last_Occurance_String.findOccurance(s);
+		assertEquals(i, s);
+	}
+	
+	
+
+}

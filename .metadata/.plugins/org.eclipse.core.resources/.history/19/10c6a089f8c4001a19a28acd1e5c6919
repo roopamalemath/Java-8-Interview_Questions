@@ -1,0 +1,10 @@
+
+public class StringReverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="WORLD HELLO";
+		s=s.replace("WORLD”, “HELLO");
+	}
+
+}

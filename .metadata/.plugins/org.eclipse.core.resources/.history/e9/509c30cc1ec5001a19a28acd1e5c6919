@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class LambdaExpressionTest {
+   public static void main(String args[]) {
+      new LambdaExpressionTest().print();
+   }
+   public static void print() {
+      List<String> list = new ArrayList<String>();
+      list.add("Tutorials Point");
+//      list.stream().forEach((String) -> { // lambda expression
+//         System.out.println("The string is: " + list);
+//      });
+      list.forEach(s->System.out.println(s););
+   }
+}

@@ -1,0 +1,25 @@
+
+public class charCount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="I am from India";
+		int count=1;
+		for(int i=0;i<s.length();i++) {
+			for(int j=1;j<s.length();j++) {
+				if(s.charAt(i)==s.charAt(j)) {
+					count++;	
+					s.charAt(j)=='';
+				} 
+			}
+				if(s.charAt(i)=='0') {
+					System.out.println("count" +count);
+					count=1;
+				}
+			}
+			
+		}
+
+	}
+
+

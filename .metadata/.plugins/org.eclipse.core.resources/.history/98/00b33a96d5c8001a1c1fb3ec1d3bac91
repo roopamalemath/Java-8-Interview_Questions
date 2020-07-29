@@ -1,0 +1,16 @@
+import static org.junit.Assert.assertEquals;
+
+
+
+public class First_And_Last_Occurance_StringTest {
+	
+	@Test
+	public void Test() {
+		//First_And_Last_Occurance_String firstLastOccurance=new First_And_Last_Occurance_String();
+		String s="abcdabacdfe";
+		assertEquals("2 7", First_And_Last_Occurance_String.findOccurance(s));
+	}
+	
+	
+
+}

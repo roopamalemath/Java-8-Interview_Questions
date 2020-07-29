@@ -1,0 +1,16 @@
+
+public class First_And_Last_Occurance_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="abcdabacdfe";
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		char character = 'n';
+		for(int i = 0; i < string.length(); i++){
+		    if(string.charAt(i) == character){
+		       list.add(i);
+		    }
+		}
+	}
+
+}

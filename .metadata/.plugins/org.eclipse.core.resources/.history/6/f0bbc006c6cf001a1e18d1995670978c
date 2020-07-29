@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class duplicateEmployee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Employee> li= new ArrayList<>();
+		li.add(new Employee(1, "Roopa", "Davangere"));
+		li.add(new Employee(2, "Malemath", "Bangalore"));
+		li.add(new Employee(1, "Roopa", "Davangere"));
+		System.out.println("before removing duplicates");
+		for(Employee e : li) {
+			System.out.println(e.getName());
+		}
+		
+		System.out.println("after removing duplicates");
+		Set<Employee> s=new HashSet<Employee>(li);
+		for(Employee e : s) {
+			
+		System.out.println(e.getName());
+		}
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package com.example.demo;
+
+
+
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+
+
+public class First_And_Last_Occurance_StringTest {
+	
+	@Test
+	public void Test() {
+		//First_And_Last_Occurance_String firstLastOccurance=new First_And_Last_Occurance_String();
+		String s="abcdabacdfe";
+		assertEquals(2, First_And_Last_Occurance_String.findOccurance(s));
+		
+	}
+	
+	@Test
+	public void suggregate() {
+		int arr[] = { 0, 1, 0, 1, 1, 0, 1 };
+		int arr1[] = {0, 0, 0, 1, 1, 1, 1};
+		assertArrayEquals(arr1, Suggregate_Zero_One.Suggregate(arr));
+	}
+	
+	@Test
+	public void kthSmallestTest() {
+		Integer arr[] = new Integer[] {7,10, 4, 3, 20, 15 }; 
+        int k = 3; 
+        assertEquals(7, Smallest_k.kthSmallest(arr, k));
+        
+	}
+	
+	
+
+}

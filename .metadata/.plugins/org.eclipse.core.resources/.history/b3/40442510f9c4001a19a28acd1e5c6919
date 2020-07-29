@@ -1,0 +1,31 @@
+class Robot {
+
+Static void finalPosition(String move){
+Int l=move.length();
+Int countUp=0, countDown=0;
+Int countLeft=0, countRight=0;
+
+for(int  i=0; i< l;i++){
+
+If(move.charAt(i)==’U’)
+countUp++;
+
+If(move.charAt(i)==’D’)
+countDown++;
+
+If(move.charAt(i)==’L’)
+countLeft++;
+
+If(move.charAt(i)==’R’)
+countRight++;
+
+System.out.println(“Final Position : (“+ (countRight - countLeft)+ “, “
+         +(countUp - countDown) + “)”);
+}
+
+Public static void main(String[] a)
+{
+String move=”DLLRU”
+finalPosition(move);
+}
+}

@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class First_And_Last_Occurance_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="abcdabacdfe";
+		String guess = "c";
+		//System.out.println(s.indexOf('c'));
+		for(int i=0;i<s.length();i++) {
+		int index = s.indexOf('c');
+		System.out.println(index);
+//		System.out.println(index);
+//		while (index >= 0) {
+//		    System.out.println(index);
+//		    index = s.indexOf(guess, index + 1);
+//		}	}
+
+}
+	}
+}

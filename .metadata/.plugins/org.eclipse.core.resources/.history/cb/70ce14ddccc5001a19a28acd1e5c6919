@@ -1,0 +1,35 @@
+
+
+class Q {
+	int num;
+
+	public int getNum() {
+		return num;
+	}
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+}
+class producer implements Runnable{
+	Q q;
+	public producer(Q q) {
+		// TODO Auto-generated constructor stub
+		this.q=q;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+public class InterThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

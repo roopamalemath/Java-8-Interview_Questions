@@ -1,0 +1,21 @@
+
+public class Coin_Change {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int arr[] = {1, 2, 3}; 
+		 int n=4;
+		 int length=arr.length;
+		 changeCoin(arr, length,n);
+
+	}
+
+	private static void changeCoin(int[] arr, int length,int n) {
+		// TODO Auto-generated method stub
+		if(n==0) {
+			return 1;
+		}
+		
+	}
+
+}

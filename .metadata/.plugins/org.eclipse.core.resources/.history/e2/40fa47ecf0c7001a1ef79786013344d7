@@ -1,0 +1,16 @@
+
+public class First_And_Last_Occurance_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="abcdabacdfe";
+		for(int i=0;i<s.length();i++) {
+			if(s.charAt(i)=='c') {
+				int j=s.indexOf(i);
+				
+			}
+		}
+
+	}
+
+}

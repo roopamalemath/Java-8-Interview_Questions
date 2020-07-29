@@ -1,0 +1,44 @@
+
+
+class Q {
+	int num;
+
+	public int getNum() {
+		return num;
+	}
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+}
+class producer implements Runnable{
+	Q q;
+	public producer(Q q) {
+		// TODO Auto-generated constructor stub
+		this.q=q;
+	}
+
+	
+	@Override
+	public void run() {
+		int i=0;
+		while(true) {
+			q.setNum(i++);
+			try {
+				Thread.sleep(1000);
+			}catch(Exception e) {
+				System.out.println("");
+			}
+		}
+		
+	}
+	
+}
+public class InterThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

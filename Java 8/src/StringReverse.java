@@ -1,0 +1,15 @@
+import java.util.Arrays;import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+public class StringReverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="WORLD HELLO";
+		s=s.replace("WORLD", "HELLO");
+		s=Arrays.stream(s.split("\\s")).distinct().collect(Collectors.joining());
+		s= s + " WORLD";
+		System.out.println(s);
+	}
+
+}

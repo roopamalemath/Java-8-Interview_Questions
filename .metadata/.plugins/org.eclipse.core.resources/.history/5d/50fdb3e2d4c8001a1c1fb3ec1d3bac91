@@ -1,0 +1,9 @@
+
+public class First_And_Last_Occurance_StringTest {
+	
+	public void Test() {
+		First_And_Last_Occurance_String firstLastOccurance=new First_And_Last_Occurance_String();
+		firstLastOccurance.
+	}
+
+}
